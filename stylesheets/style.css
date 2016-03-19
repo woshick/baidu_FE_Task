@@ -1,0 +1,107 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: gray;
+    font-family: "Microsoft YaHei";
+}
+nav{
+    /*position:fixed;*/
+    /*top:0px;*/
+    background: #3c3c3c;
+    width: 100%;
+}
+nav img{
+    float:left;
+    width: 200px;
+    height: 75px;
+}
+nav ul {
+    height: 75px;
+}
+nav ul li{
+    float: right;
+    text-align: center;
+    line-height: 75px;
+    height: 75px;
+    margin-right:25px;
+    color: black;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+article{
+    width: 90%;
+    background: white;
+    border: solid 1px gray;
+    margin: 25px auto;
+    padding: 30px 15px 30px 15px ;
+}
+article h2{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+article h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.writer,.time{
+    font-size: 15px;
+    margin-right: 10px;
+}
+article p.content{
+    text-indent: 2em;
+}
+article ul li{
+    list-style: none;
+    margin: 15px 15px 15px 15px ;
+}
+article h3 .line{
+    width: 0px;
+    height: 100%;
+    border: solid 1px gray;
+    margin-right: 10px;
+}
+article form label{
+    float: left;
+    width: 200px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+article input,select{
+    width: 180px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    text-align: left;
+}
+article input[type="radio"]{
+    width:30px;
+}
+article form textarea {
+    width: 50%;
+    height: 180px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    text-align: left;
+}
+article input[type="submit"],[type="reset"]{
+    display: block;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: #F0E68C;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+}
+article br{
+    clear: left;
+}
